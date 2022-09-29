@@ -32,5 +32,3 @@ phx_1_7_dev_sandbox-*.tar
 npm-debug.log
 /assets/node_modules/
 
-phoenix_components_daisy
-
