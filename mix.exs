@@ -40,7 +40,7 @@ defmodule Phx17DevSandbox.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.18"},
       {:phoenix_components_daisy, path: "lib/phoenix_components_daisy", only: :dev},      
-      {:phoenix_components_daisy, path: "lib/phoenix_components_daisy", only: :prod},      
+      {:phoenix_components_daisy, github: "niccolox/phoenix_components_daisy", only: :prod},
       {:heroicons, "~> 0.5"},
       {:floki, ">= 0.30.0", only: :test},
       {:tailwind, "~> 0.1.8", runtime: Mix.env() == :dev},
