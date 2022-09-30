@@ -3,6 +3,20 @@ export FLYCTL_INSTALL="/home/niccolox/.fly"
   export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 
+<h2>Card Static</h2>
+<PhoenixComponentsDaisy.Card.static />
+
+<h2>Card Dynamic</h2>
+<PhoenixComponentsDaisy.Card.dynamic 
+card_image_url="https://placeimg.com/400/225/arch" 
+card_image_alt="Shoes" 
+card_title="Shoes!" 
+card_body="If a dog chews shoes whose shoes does he choose?"
+card_action="Buy Now"
+ />
+
+
+
 # Phx17DevSandbox
 
 To start your Phoenix server:
