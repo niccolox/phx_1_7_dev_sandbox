@@ -32,13 +32,14 @@ defmodule Phx17DevSandbox.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, github: "phoenixframework/phoenix", override: true},
+      {:phoenix, github: "devekkoio/phoenix", override: true},
       {:phoenix_ecto, "~> 4.4"},
       {:ecto_sql, "~> 3.6"},
       {:postgrex, ">= 0.0.0"},
       {:phoenix_html, "~> 3.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.18"},
+      {:phoenix_components_daisy, path: "lib/phoenix_components_daisy"},      
       {:heroicons, "~> 0.5"},
       {:floki, ">= 0.30.0", only: :test},
       {:tailwind, "~> 0.1.8", runtime: Mix.env() == :dev},
