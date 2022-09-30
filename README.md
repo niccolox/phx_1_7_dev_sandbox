@@ -1,3 +1,8 @@
+#   Fly.io
+export FLYCTL_INSTALL="/home/niccolox/.fly"
+  export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+
 # Phx17DevSandbox
 
 To start your Phoenix server:
