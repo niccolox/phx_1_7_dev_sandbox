@@ -50,6 +50,7 @@ COPY priv priv
 
 COPY lib lib
 
+RUN cd assets && npm install daisyui --save
 COPY assets assets
 
 # compile assets
