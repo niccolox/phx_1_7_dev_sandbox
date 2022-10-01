@@ -1,4 +1,4 @@
-# fly.toml file generated for phx-1-7-dev-sandbox on 2022-09-29T17:58:33-07:00
+# fly.toml file generated for phx-1-7-dev-sandbox on 2022-09-30T19:44:15-07:00
 
 app = "phx-1-7-dev-sandbox"
 kill_signal = "SIGTERM"

@@ -1,6 +1,6 @@
 #   Fly.io
 export FLYCTL_INSTALL="/home/niccolox/.fly"
-  export PATH="$FLYCTL_INSTALL/bin:$PATH"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 
 <h2>Card Static</h2>
